@@ -5,6 +5,8 @@ $greeting = "Hello, Sherwin!";
 
 switch ($ip) {
     case "70.169.17.133": // Sherwin
+    case "54.67.101.79": // Sherwin
+    case "68.129.61.191":
         echo $greeting;
         break;
 
