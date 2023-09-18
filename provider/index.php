@@ -67,8 +67,8 @@ use OpenEMR\Core\Header;
 
                     <!-- Email input -->
                     <div class="form-outline mb-4">
-                        <input type="email" id="form3Example3" class="form-control form-control-lg"
-                               placeholder="Enter a valid email address" />
+                        <input type="email" id="form3Example3" name="clinic" class="form-control form-control-lg"
+                               placeholder="Enter a valid clinic name" />
                         <label class="form-label" for="form3Example3">Clinic Name</label>
                     </div>
 
