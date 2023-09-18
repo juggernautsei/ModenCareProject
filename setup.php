@@ -1,7 +1,7 @@
 <?php
 
 $ip = $_SERVER['REMOTE_ADDR'];
-$greeting = "Hello, Sherwin!";
+$greeting = "Hello!";
 
 switch ($ip) {
     case "70.169.17.133": // Sherwin
