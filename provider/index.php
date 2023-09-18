@@ -55,8 +55,8 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <input type="text" id="form3Example3" name="clinic" class="form-control form-control-lg"
-                               placeholder="Enter a valid clinic name" />
-                        <label class="form-label" for="form3Example3">Clinic Name</label>
+                               placeholder="Enter a valid clinic ID" />
+                        <label class="form-label" for="form3Example3">Clinic ID</label>
                     </div>
 
                     <div class="text-center text-lg-start mt-4 pt-2">
