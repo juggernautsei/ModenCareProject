@@ -8,7 +8,7 @@ require_once '../interface/globals.php';
 
 use OpenEMR\Core\Header;
 
-if (!empty($_POST['clinic'])) {
+if ($_POST) {
     echo "Find me";
     die('Clinic found');
 }
@@ -50,7 +50,7 @@ if (!empty($_POST['clinic'])) {
                      class="img-fluid" alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <form method="post" action="index.php">
+                <form method="POST" action="index.php" name="provider_login">
                     <!--<div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                         <p class="lead fw-normal mb-0 me-3">Sign in with</p>
                         <button type="button" class="btn btn-primary btn-floating mx-1">
