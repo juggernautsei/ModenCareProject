@@ -8,6 +8,11 @@ require_once '../interface/globals.php';
 
 use OpenEMR\Core\Header;
 
+if (!empty($_POST['clinic']) && is_dir($_POST['clinic'])) {
+    echo "Find me";
+    die('Clinic found');
+}
+
 ?>
 <!doctype html>
 <html>
