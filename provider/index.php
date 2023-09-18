@@ -9,7 +9,7 @@ require_once '../interface/globals.php';
 use OpenEMR\Core\Header;
 
 if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
-    echo "Find me";
+    header('Location: ../interface/login/login.php?site=' . $_POST['clinic']);
     die('Clinic found');
 }
 
