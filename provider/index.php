@@ -21,57 +21,37 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <title><?php echo xlt('Provider Login'); ?></title>
     <?php Header::setupHeader(); ?>
     <style>
-        .divider:after,
-        .divider:before {
-            content: "";
-            flex: 1;
-            height: 1px;
-            background: #eee;
-        }
-        .h-custom {
-            height: calc(100% - 73px);
-        }
-        @media (max-width: 450px) {
-            .h-custom {
-                height: 100%;
-            }
+        #rcorners3 {
+            border-radius: 25px;
         }
     </style>
 </head>
 <body>
-<section class="vh-100">
-    <div class="container-fluid h-custom">
-        <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <h3>Moden EHR</h3>
-                <form method="POST" action="index.php" name="provider_login">
-
-                    <!-- Email input -->
-                    <div class="form-outline mb-4">
-                        <input type="text" id="form3Example3" name="clinic" class="form-control form-control-lg"
-                               placeholder="Enter a valid clinic ID" />
-                        <label class="form-label" for="form3Example3">Clinic ID</label>
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <form name="practice" method="post" action="index.php">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-12 col-lg-12 col-xl-12 h-100">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div id="rcorners3" class="card-body p-5 text-center" style="background-image: url('v870-tang-31.jpg'); height: 700px; opacity: 0.8;">
+                            <div class="mb-md-5 mt-md-4 pb-5" style="padding-top: 200px">
+                                <div class="form-outline form-white mb-4">
+                                    <h1 class="text-dark mb-5">MODEN EHR</h1>
+                                    <p class="text-dark"></p>
+                                    <input name="clinic" type="text" id="typeEmailX" class="form-control form-control-lg text-center" placeholder="Practice Key: eg. PW0127"/>
+                                    <label class="form-label" for="typeEmailX"></label>
+                                </div>
+                                <input class="btn btn-primary btn-lg px-5" type="submit" value="Continue">
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="text-center text-lg-start mt-4 pt-2">
-                        <input type="submit" class="btn btn-primary btn-lg"
-                                style="padding-left: 2.5rem; padding-right: 2.5rem;" value="Continue">
-                    </div>
-
-                </form>
+                </div>
             </div>
-        </div>
-    </div>
-    <div
-        class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-        <!-- Copyright -->
-        <div class="text-white mb-3 mb-md-0">
-            Copyright © 2020. All rights reserved.
-        </div>
-        <!-- Copyright -->
+        </form>
     </div>
 </section>
 </body>
