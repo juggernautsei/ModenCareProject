@@ -46,6 +46,7 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
     <div class="container-fluid h-custom">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <h3>Moden EHR</h3>
                 <form method="POST" action="index.php" name="provider_login">
 
                     <!-- Email input -->
