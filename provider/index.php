@@ -124,7 +124,7 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
                         <div class="card bg-dark text-white" style="border-radius: 1rem;">
                             <div id="rcorners3" class="card-body p-5 text-center">
                                 <div class="mb-md-5 mt-md-4 pb-5" style="padding-top: 100px">
-                                    <div class="form">
+                                    <div>
                                         <img src="moden med logo.png" alt="Moden Medical Group Logo" />
                                         <h1 class="practicek__title">MODEN EHR</h1>
                                         <p class="practicek__copy">Welcome to Moden EHR! Please kindly enter your Practice Key below. We trust that you'll have a wonderful day!</p>
