@@ -122,7 +122,7 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
                 <div class="row d-flex justify-content-center align-items-center h-100">
                     <div class="col-12 col-md-12 col-lg-12 col-xl-12 h-100">
                         <div class="card bg-dark text-white" style="border-radius: 1rem;">
-                            <div id="rcorners3" class="card-body p-5 text-center" style="background-image: url('v870-tang-31.jpg'); height: 700px; opacity: 0.8;">
+                            <div id="rcorners3" class="card-body p-5 text-center">
                                 <div class="mb-md-5 mt-md-4 pb-5" style="padding-top: 100px">
                                     <div class="form">
                                         <img src="moden med logo.png" alt="Moden Medical Group Logo" />
