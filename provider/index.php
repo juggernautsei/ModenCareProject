@@ -126,12 +126,12 @@ if ($_POST['clinic'] && is_dir('../sites/' . $_POST['clinic'])) {
                                 <div class="mb-md-5 mt-md-4 pb-5" style="padding-top: 100px">
                                     <div class="text-center">
                                         <img src="moden med logo.png" alt="Moden Medical Group Logo" />
-                                        <h1 class="practicek__title">MODEN EHR</h1>
-                                        <p class="text-center">Welcome to Moden EHR! Please kindly enter your Practice Key below. We trust that you'll have a wonderful day!</p>
+                                        <h1 class="practicek__title"><?php echo xlt("MODEN EHR") ?></h1>
+                                        <p class="text-center"><?php echo xlt("Welcome to Moden EHR! Please kindly enter your Practice Key below. We trust that you'll have a wonderful day") ?>!</p>
                                         <input name="clinic" type="text" id="typeEmailX" class="form__email" placeholder="Practice Key: eg. PW0127"/>
                                         <label class="form-label" for="typeEmailX"></label>
                                     </div>
-                                    <input class="form__button" type="submit" value="Continue">
+                                    <input class="form__button mt-3" type="submit" value="Continue">
                                 </div>
                             </div>
                         </div>
